@@ -1,0 +1,206 @@
+.transactions {
+  position: relative;
+  height: 713px;
+  width: 375px;
+  background: linear-gradient(173.28deg, #3CBAF0 -1.33%, #1957C7 51.75%);
+  margin: 0 auto;
+  box-shadow: 1px 1px 38px 22px rgba(34, 60, 80, 0.22);
+}
+.transactions .ellipse {
+  position: absolute;
+  width: 136px;
+  height: 136px;
+  right: 0px;
+  top: -10px;
+  mix-blend-mode: screen;
+}
+.transactions .header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 49px;
+  width: 100%;
+  padding-bottom: 57px;
+}
+.transactions .header a {
+  display: block;
+  text-decoration: none;
+  color: #FFFFFF;
+  margin-left: 35px;
+  font-size: 30px;
+  line-height: 30px;
+}
+.transactions .header h2 {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: 0.01em;
+  color: #FFFFFF;
+  margin-right: auto;
+  margin-left: 17%;
+}
+.transactions .tContainer {
+  width: 327px;
+  max-height: 80%;
+  height: 400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  overflow: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.transactions .tContainer::-webkit-scrollbar {
+  display: none;
+}
+.transactions .tContainer .elementContainer {
+  width: 100%;
+  height: 80px;
+  background: #FEFEFE;
+  box-shadow: 0px 10px 25px rgba(202, 211, 221, 0.3);
+  border-radius: 20px;
+  margin-bottom: 8px;
+}
+.transactions .tContainer .elementContainer a {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.transactions .tContainer .elementContainer .elementWrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 21px 0 22px 30px;
+  width: 98px;
+}
+.transactions .tContainer .elementContainer .elementWrapper .title {
+  display: block;
+  width: 72px;
+  height: 21px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.01em;
+  -moz-text-align-last: left;
+       text-align-last: left;
+}
+.transactions .tContainer .elementContainer .elementWrapper .date {
+  display: block;
+  width: 98px;
+  height: 15px;
+  font-weight: 400;
+  font-size: 10px;
+  letter-spacing: 0.01em;
+  color: rgba(0, 0, 0, 0.5490196078);
+  -moz-text-align-last: left;
+       text-align-last: left;
+}
+.transactions .tContainer .elementContainer .price {
+  display: block;
+  width: 80px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 32px;
+  text-align: right;
+  letter-spacing: 0.01em;
+  padding: 22px 30px 30px 0;
+}
+.transactions .add {
+  width: 50px;
+  height: 50px;
+  margin: 90px 0 36px;
+  background: rgba(255, 255, 255, 0.368627451);
+  border-radius: 15px;
+  border: 0;
+  color: #fff;
+  font-size: 30px;
+}
+.transactions .add:hover {
+  background-color: rgba(255, 255, 255, 0.2862745098);
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.background {
+  position: absolute;
+  top: 60%;
+  left: 35%;
+}
+.background .form {
+  height: 200px;
+  position: absolute;
+  left: -60px;
+  top: -21px;
+  box-shadow: 1px 2px 14px 4px rgba(34, 60, 80, 0.2);
+}
+.background .form form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+.background .form form > * {
+  border: 1px solid rgba(2, 2, 36, 0.605);
+  border-radius: 4px;
+  margin-bottom: 2px;
+}
+.background .form form > *::-moz-placeholder {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 0.07em;
+  color: rgba(0, 0, 0, 0.4117647059);
+}
+.background .form form > *::placeholder {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 0.07em;
+  color: rgba(0, 0, 0, 0.4117647059);
+}
+.background .form form textarea {
+  height: 60px;
+}
+.background .form form select, .background .form form option {
+  background-color: rgb(177, 177, 177);
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0.07em;
+  color: rgba(0, 0, 0, 0.4117647059);
+  text-transform: uppercase;
+}
+.background .form form input {
+  height: 30px;
+}
+.background .form form input:hover::-moz-placeholder {
+  background-color: rgba(76, 93, 205, 0.545);
+}
+.background .form form input:hover::placeholder {
+  background-color: rgba(76, 93, 205, 0.545);
+}
+.background .form form button {
+  font-family: "Poppins";
+  font-weight: bold;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  height: 30px;
+  background-color: rgb(224, 224, 224);
+  text-transform: uppercase;
+}
+.background .form form button:hover {
+  background-color: rgba(224, 224, 224, 0.667);
+}/*# sourceMappingURL=Transactions.module.css.map */

@@ -1,0 +1,105 @@
+.transaction {
+  width: 375px;
+  height: 713px;
+  background: #fff;
+  margin: 0 auto;
+  box-shadow: 1px 1px 38px 22px rgba(34, 60, 80, 0.22);
+}
+.transaction .title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 52px;
+  padding-bottom: 63px;
+  width: 100%;
+  padding-bottom: 57px;
+}
+.transaction .title a {
+  width: 30px;
+  text-decoration: none;
+  color: #000000;
+  margin-left: 35px;
+  font-size: 30px;
+  line-height: 30px;
+}
+.transaction .title .time {
+  font-family: "Poppins";
+  width: 145px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.01em;
+  color: #000;
+  margin-right: auto;
+  margin-left: 17%;
+}
+.transaction .main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.transaction .main .cat {
+  max-width: 70%;
+  min-width: 111px;
+  height: 30.08px;
+  background: rgba(25, 86, 199, 0.296);
+  border-radius: 23px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 28px;
+  letter-spacing: 0.01em;
+  align-self: center;
+  color: #000000;
+  margin-bottom: 44px;
+}
+.transaction .main .title {
+  display: block;
+  height: 36px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.01em;
+  color: #000000;
+  margin-bottom: 7px;
+  align-self: center;
+  text-align: center;
+}
+.transaction .main .price {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.01em;
+  color: #000000;
+  padding-bottom: 19px;
+}
+.transaction .main .desc {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 15px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #000000;
+}
+.transaction .main .buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.transaction .main .buttons button {
+  width: 48px;
+  height: 50px;
+  background: rgba(56, 114, 221, 0.11);
+  border: 0;
+  border-radius: 15px;
+}
+.transaction .main .buttons .edit {
+  margin-right: 16px;
+}/*# sourceMappingURL=Transaction.module.css.map */
